@@ -1,0 +1,6 @@
+name: pudemo
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Pulumi demo to deploy a Kubernetes cluster on AWS using Python

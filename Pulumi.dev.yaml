@@ -1,0 +1,6 @@
+config:
+  aws:region: eu-west-3
+  aws:defaultTags:
+    tags:
+      Owner: Ernest
+      Tool: Pulumi
