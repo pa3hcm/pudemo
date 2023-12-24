@@ -5,7 +5,7 @@ import pulumi_eks as eks
 # Create VPC
 pu_vpc = awsx.ec2.Vpc("pu-vpc",
     enable_dns_hostnames=True,
-    cidr_block="10.202.0.0/16",
+    cidr_block="10.203.0.0/16",
     tags={"Name": "pu-vpc"},
 )
 
